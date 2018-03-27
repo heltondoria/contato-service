@@ -1,0 +1,7 @@
+{
+    "MONGODB_DB": "contatos",
+    "MONGODB_HOST": "localhost",
+    "MONGODB_PORT": 27017,
+    "MONGODB_USERNAME": "contatoadmin",
+    "MONGODB_PASSWORD": "pwd12345"
+}
