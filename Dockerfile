@@ -1,6 +1,6 @@
 FROM ubuntu:19.04
 LABEL maintainer="helton.doria@gmail.com"
-RUN apt-get update && apt-get install -y python \
+RUN apt-get update && apt-get install -y --no-install-recommends python \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 RUN apt-get install -y --no-install-recommends python3-pip python3-dev build-essential git
