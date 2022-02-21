@@ -1,3 +1,4 @@
 Flask==0.12.3
 Flask-MongoEngine==0.9.5
 Werkzeug==0.14.1
+wtforms>=3.0.0a1 # not directly required, pinned by Snyk to avoid a vulnerability
